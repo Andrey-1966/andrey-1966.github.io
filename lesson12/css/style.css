@@ -1,0 +1,86 @@
+.section {
+  padding:80px;40%; //границы сайта
+  
+}
+
+
+
+.header {          
+ font-size:24px;               /* Заголовок сайта */
+ text-align:center;
+}
+.header span {
+ margin-top:80px;
+ font-weight:300;       /*Тонкий нежирный шрифт */
+ display:block;         /*как блок,чтобы потом с новой строки */
+}
+
+.header strong {        
+font-weight:900;            /*жирный шрифт */
+text-transform:uppercase;   /*все буквы прописные */
+}
+
+.main {
+   margin-top:80px;         /*Блок, в котором содержатся два блока: video и form  */
+ /*  border:1px solid red;*/
+  text-align:center;       /*Чтобы оба блока video и form были по центру*/
+ }                        
+ 
+.video, .form {            
+ display:inline-block;     /*Блоки, которые внутри main строковые  */
+ vertical-align:top;       /*выравниваем их по верху    */
+}
+
+.form {                    /*блок form             */               
+ margin-left:30px;  
+padding: 20px;              /*отступы всего 20px от края блока  */
+border:5px solid #2727d9;   /*цвет границы блока    */
+text-align:center;
+}
+
+.form input {
+font-size:18px;             /*Поле input. В нем текст размеров 18px   */
+display:block;              /*Блоки друг под другом, а не в строчку             */
+margin-top:11px;            /*отступы между блоками 11px      */
+width:300px;                /*ширина блока 300px                    */
+padding:17px;               /*отступы текста внутри inputa от всех краев 17px  */
+border:1px solid #333;      /*границы блока             */
+}
+
+.form-header {              /*оформление заголовке "введите email"   */
+   text-align:center;       /*по середине                             */
+   font-size:24px;          /*размер 24px                            */
+   font-weight:900;         /*жирность 900                            */
+   margin-bottom:20px;      /*отступ от ижнего блока form 40px       */
+}
+
+.btn {                       /* Оформляем кнопку внутри form*/
+/* Можно было бы назвать кнопку .form button */
+ font-size:18px;             /* Размер шрифта */
+ font-weight:900;              /*жирность шрифта*/
+ color:#fff;                   /* цвет текста*/
+ background-color:#2227d9;     /* цвет фона*/
+ border:none;                  /*цвет и толщина границы*/
+ width:300px;                  /*щирина кнопки*/
+ height:60px;                  /*высота кнопки*/
+ display:block;                /*под другими блоками*/ 
+ margin: 11px auto;            /*отступ сверху и снизу 11px а слева и справа по центру*/
+}
+
+.col {
+display:inline-block;
+text-align:center;
+margin:10px 50px;
+}
+
+.feature-header {
+text-align:center;
+text-transform:uppercase;
+font-weight:900;
+font-size:18px;    
+}
+
+.feature {
+margin:60px auto;
+text-align:center;
+}

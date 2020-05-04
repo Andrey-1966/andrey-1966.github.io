@@ -1,0 +1,18 @@
+.vitya, .arina {
+font-size:20px;
+color:#76eaae;
+background-color:#d6ea76;
+border:12px solid green;
+width:400px;
+height:200px; 
+margin-left:100px;
+text-align:center;
+display:inline-block;
+margin-top:0px;
+}
+ 
+.kart {
+width:150px;
+float:left;
+
+}
